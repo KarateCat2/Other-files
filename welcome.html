@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <title>This is the welcome page</title>
+        <style>
+            body{
+                text-align: center;
+                background-color: rgb(128, 0, 90);
+                color: rgb(0, 255, 242);
+                animation-name: titleIsMoving;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+            } 
+            @keyframes titleIsMoving{
+                0%{color: rgb(0, 255, 242);}
+                25%{color: purple;}
+                50%{color: orangered;}
+                75%{color: yellowgreen;}
+                100%{color: rgb(0, 255, 242);}
+            }
+            p{
+                color: rgba(199, 209, 181, 0.952);
+            }
+            table{
+                width: 100%;
+            }
+            tr, th, td, table{
+                border: 10px solid black;
+                border-collapse: collapse;
+            }
+            img{
+                height: 300px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Home</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="welcome.html">Welcome</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="whyDidIMakeThis.html">Why am I making this?</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Find more cool stuff here
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="dadFavs.html">His favorites</a></li>
+                      <li><a class="dropdown-item" href="dadFam.html">His family</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="ending.html">The ending</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <h1> Welcome to Daddy's website.</h1>
+        <p> There is plenty of stuff to learn about Daddy. Earlier you saw some pictures of Daddy's favorites. Here is a tour of who he is. </p>
+        <table>
+         <tr>
+            <th> 
+             <div class="text-center">
+              <div class="card" style="width: 18rem;">
+                <img src="https://static.wikia.nocookie.net/spongebob/images/d/d7/SpongeBob_stock_art.png/revision/latest?cb=20190921125147" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Who is Daddy?</h5>
+                  <p class="card-text">He is the dad of 2 children and has a beautiful wife. </p>
+                </div>
+              </div>
+            </div>
+            </th>
+            <th>
+                <div class="text-center">
+                    <div class="card" style="width: 18rem;">
+                      <img src="https://www.hollywoodreporter.com/wp-content/uploads/2013/11/spongebob_a_0.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">What is Daddy's job?</h5>
+                        <p class="card-text">He works as at a resturant called the Krusty Krab, and flips Krabby Patties as a fry cook. </p>
+                      </div>
+                    </div>
+                </div>
+            </th>
+         </tr>
+         <tr>
+             <td>
+                <div class="text-center">
+                 <div class="card" style="width: 18rem;">
+                    <img src="https://lh3.googleusercontent.com/proxy/LPLrTQJW2RNQB3CHUQ7bkT_WXlH24qQ-Obqa3OZqcSlV4Ai5XFFghtoB-120SeMzAy3oJEimAW8jtvJZ59xXHKv-Txn1V6y2KDsHlfrLlfb5H0FJeXdYiQgSFTR7RngT6Q" class="card-img-top" alt="...">
+                      <div class="card-body">
+                           <h5 class="card-title">What are Daddy's hobbies?</h5>
+                           <p class="card-text">He likes to play with his phone. He also like to play with his kids including games like Monopoly and blow bubbles.</p>
+                      </div>
+                 </div>
+                </div> 
+             </td>
+             <td>
+                <div class="text-center">
+                    <div class="card" style="width: 18rem;">
+                       <img src="https://static.wikia.nocookie.net/theadventuresofgarythesnail/images/4/47/SpongeBob%27s_pinapple_house.png/revision/latest?cb=20150309181810" class="card-img-top" alt="...">
+                         <div class="card-body">
+                              <h5 class="card-title">What does Daddy's house look like?</h5>
+                              <p class="card-text">His house is a pineapple, that resides under the sea, in Bikini Bottom.</p>
+                         </div>
+                    </div>
+                </div>  
+             </td>
+         </tr>
+        </table>
+        <a href = "changes.html"><button type="button" class="btn btn-info">If you think there should be something changed, please go here.</button></a>
+    </body>
+</html>

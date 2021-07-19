@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <title> These are Daddy's favorites </title>
+        <style>
+            body{
+                text-align: center;
+                background-color: rgb(0, 255, 13);
+            }
+            h1{
+                color: red;
+                animation-name: titleIsMoving;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+            } 
+            @keyframes titleIsMoving{
+                0%{color: red;}
+                25%{color: yellow;}
+                50%{color: blue;}
+                75%{color: pink;}
+                100%{color: red;}
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Home</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="welcome.html">Welcome</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="whyDidIMakeThis.html">Why am I making this?</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Find more cool stuff here
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="dadFavs.html">His favorites</a></li>
+                      <li><a class="dropdown-item" href="dadFam.html">His family</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="ending.html">The ending</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+         <h1> There are many favorites that Daddy has, so we will name a few. </h1>
+         <ol>
+             <li> Fav Letter: "U"</li>
+             <li> Fav Number: 23</li>
+             <li> Fav Game: Tetris</li>
+             <li> Fav Color: Purple</li>
+             <li> Fav Drink: Coffee</li>
+             <li> Fav Movie: Contact</li>
+             <li> Fav Sport: Basketball</li>
+             <li> Fav Food: Seafood (Lobster)</li>
+             <li> Fav Dessert: Kroger Private Selecion Maine Blueberry Cheescake</li>
+             <li> Fav People (aka Friends): Kevin, Micheal, Carol, Dicson, Phyllis, Jacky, Lucy, Kim, and Mandy</li>
+         </ol>
+         <p> There are many more favorites that Daddy has, but these were the first 10 I could think of.</p>
+         <a href = "changes.html"><button type="button" class="btn btn-info">If you think there should be something changed, please go here.</button></a>
+    </body>
+</html>
